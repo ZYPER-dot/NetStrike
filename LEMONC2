@@ -112,14 +112,7 @@ def slowloris(target_ip, target_port, duration):
 
 
 plane = """\033[32m
- _____         ______
-| : \         |    \\ 
-| :  `\\______|______\\_______
- \\'______   NetStrike  \\_____\\_____
-   \\____/-)_,---------,_____________>--
-             \\       /
-              |     /
-              |____/__
+L  E  M  O  N  C2
 \033[0m"""
 
 commands = """
@@ -135,7 +128,7 @@ def clear():
 
 
 def main():
-    set_title("NetStrike")
+    set_title("LEMONC2")
 
     # Print plane
     for _ in range(50):
@@ -147,7 +140,7 @@ def main():
     print(commands)
 
     while True:
-        cmd = input(f"NetStrike$ ").split()
+        cmd = input(f"L E M O N C2$ ").split()
 
         if cmd:
             if cmd[0] == "help" or cmd[0] == "?":
